@@ -1,0 +1,9 @@
+sonar.verbose=true
+sonar.organization=navab
+sonar.projectKey=navab_project
+sonar.projectName=project
+sonar.language=java
+sonar.sourceEncoding=UTF-8
+sonar.sources=.
+sonar.java.binaries=target/classes
+sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
