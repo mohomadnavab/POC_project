@@ -1,4 +1,4 @@
-# Demo application
+# Demo application for DevOps project
 
 This is a small applicaiton which contains main and test folders.  
 Main contains application code.  
