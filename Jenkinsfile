@@ -94,6 +94,13 @@ environment {
         }
     } 
 
+          stage('Trivy') {
+            steps {
+               sh 'trivy image navabnadaf.jfrog.io/docker-docker-local/devops-project:2.1.3'
+
+            }
+        }
+
     stage(" Deploy ") {
       steps {
         script {
