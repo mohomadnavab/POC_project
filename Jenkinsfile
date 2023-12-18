@@ -27,6 +27,13 @@ environment {
             }
         }
 
+        stage('DP Check') {
+            steps {
+               sh 'mvn org.owasp:dependency-check-maven:check'
+
+            }
+        }
+
     stage('SonarQube analysis') {
     environment {
       scannerHome = tool 'sonar-scanner'
